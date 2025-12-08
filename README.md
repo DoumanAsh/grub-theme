@@ -11,3 +11,7 @@ sudo cp -rf Arknights_Priestess/ /boot/grub2/themes/
 sudo sed -i 's/^.*GRUB_THEME=.*/GRUB_THEME="\/boot\/grub2\/themes\/Arknights_Priestess\/theme.txt"/g' /etc/default/grub
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
+
+#### Default config
+
+New machine installation just copy: [/etc/default/grub/](./grub)
