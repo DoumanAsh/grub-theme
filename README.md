@@ -1,8 +1,8 @@
-## Grub theme
+# Grub theme
 
 Just some random theme I came up with to have Priestess watching over your me
 
-### Installation
+## Installation
 
 Assumes grub2 and you have another theme present
 
@@ -12,6 +12,10 @@ sudo sed -i 's/^.*GRUB_THEME=.*/GRUB_THEME="\/boot\/grub2\/themes\/Arknights_Pri
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-#### Default config
+## Default config
 
 New machine installation just copy: [/etc/default/grub/](./grub)
+
+## Example
+
+![Example](./example.jpg)
